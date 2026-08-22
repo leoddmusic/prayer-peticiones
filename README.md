@@ -51,3 +51,6 @@ prayer-peticiones/
 El repositorio incluye un flujo básico de CI con **GitHub Actions**.
 
 En este avance se comprueba que el pipeline se ejecuta correctamente. Las pruebas automatizadas se incorporarán en los avances posteriores de la Unidad 3.
+
+## Evidencia del flujo
+Este cambio documenta el uso de GitHub Flow para el módulo de registro y actualización de peticiones.
