@@ -1,0 +1,13 @@
+{
+  "name": "prayer-peticiones",
+  "version": "1.0.0",
+  "description": "Módulo PRAYER para registro y actualización de estado de peticiones.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "check": "node --check src/index.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
