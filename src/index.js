@@ -1,16 +1,10 @@
 const express = require('express');
+const { estadosPermitidos } = require('./peticiones');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.use(express.json());
-
-const estadosPermitidos = [
-  'Pendiente',
-  'En seguimiento',
-  'Respondida',
-  'Cerrada'
-];
 
 app.get('/', (_req, res) => {
   res.json({

@@ -23,5 +23,8 @@ jobs:
       - name: Verificar sintaxis
         run: npm run check
 
+      - name: Ejecutar prueba automatizada CP-I01
+        run: npm test
+
       - name: Confirmar pipeline
-        run: echo "Pipeline ejecutado correctamente"
+        run: echo "Pipeline y prueba automatizada ejecutados correctamente"
