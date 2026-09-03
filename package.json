@@ -5,9 +5,13 @@
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
-    "check": "node --check src/index.js"
+    "check": "node --check src/index.js && node --check src/peticiones.js && node --check tests/cp-i01.test.js",
+    "test": "jest --runInBand"
   },
   "dependencies": {
     "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "jest": "^30.5.1"
   }
 }
